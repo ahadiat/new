@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: none;
+}
+
+.hover\:scale-110:hover {
+  transform: scale(1.10);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 500px solid rgb(147, 73, 147);
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
