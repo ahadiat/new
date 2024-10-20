@@ -11,6 +11,7 @@ export default {
         '-20': '-20',
         '-30': '-30',
       },
+     
       screens: {
         'custom-smm': '320px',
         'custom-sm': '375px' ,
